@@ -3,7 +3,7 @@ A dockerized installation of EJBCA for use with a dockerized PostgreSQL 9.x., e.
 
 ## Dependencies
 |Dependency|Version|Website|
-|-|
+|-|-|-|
 |EJBCA|6_5.0.5|https://www.ejbca.org/|
 |Wildfly|10.1.0.Final|http://wildfly.org/|
 |Dockerize|0.5.0|https://github.com/jwilder/dockerize|
@@ -17,7 +17,7 @@ A dockerized installation of EJBCA for use with a dockerized PostgreSQL 9.x., e.
 This image is designed to be used with `docker-compose`, use the following parameters as required:
 
 ||Parameter|Description|Default value|
-|-|
+|-|-|-|-|
 |:exclamation:|EJBCA_DB_HOSTNAME|database server hostname|[required]|
 ||EJBCA_DB_PORT|database server port|5432|
 ||EJBCA_DB_NAME|database name|ejbca|
